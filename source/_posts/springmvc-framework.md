@@ -33,7 +33,7 @@ springmvc是spring框架的一个模块，属于表现层框架，springmvc和sp
 `由于Handler涉及到具体的用户业务请求，所以一般情况需要程序员根据业务需求开发Handler`
 - HandlerAdapter:处理器适配器
 
-	通过HandlerAdapter对处理器进行执行，这是适配器模式的应用，通过扩张适配器可以对更过类型的处理器进行执行
+	通过HandlerAdapter对处理器进行执行，这是适配器模式的应用，通过扩张适配器可以对更多类型的处理器进行执行
 - ViewResolver
 
 	ViewResolver负责将处理结果生成View视图，ViewResolver首先根据逻辑视图名解析成物理视图名即具体的页面地址，再生成View视图对象，最后对View进行渲染将处理结果通过页面展示给用户。springmvc框架提供了很多的View视图类型，包括jstlView、freemarkerView、pdfView等
